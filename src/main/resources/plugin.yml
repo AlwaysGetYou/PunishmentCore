@@ -1,0 +1,17 @@
+main: com.alwaysgetyou.punishments.Punishments
+version: 1.0
+name: Punishments-1.0
+
+commands:
+  punish:
+    description: Performs all punish commands.
+
+permissions:
+  ban:
+  unban:
+  check:
+  tempban:
+  mute:
+  reloadconfig:
+  tempmute:
+  unmute:

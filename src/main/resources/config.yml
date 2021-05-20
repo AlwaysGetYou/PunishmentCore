@@ -1,0 +1,31 @@
+predefined_reasons:
+  example:
+    # You can add unlimited reasons, just configure this config ;)
+    # Example: /ban AlwaysGetYou @example
+    text:
+      - "You have been caught cheating!"
+      - "This ban is permanent. There is nothing that you can do."
+messages:
+  invalid_syntax: "&cInvalid syntax! Usage: &e%command%"
+  ban:
+    success_silent: "&a%player% was &esilently&a permanently banned by &c%sender%"
+    success_public: "&a%player% was permanently banned by &c%sender%"
+  tempban:
+    success_silent: "&a%player% was &esilently&a temporarily banned by &c%sender% for &e%time%"
+    success_public: "&a%player% was temporarily banned by &c%sender% for &e%time%"
+  unban:
+    success_silent: "&a%player% was &esilently&a unbanned by &c%sender%"
+    success_public: "&a%player% was unbanned by &c%sender%"
+  mute:
+    success_silent: "&a%player% was &esilently&a permanently muted by &c%sender%"
+    success_public: "&a%player% was permanently muted by &c%sender%"
+    target_message: "&cYou were permanently muted for reason: %reason%"
+    sender_message_fail: "&cYou are permanently muted for &e%reason%&c"
+  tempmute:
+    success_silent: "&a%player% was &esilently&a temporarily muted by &c%sender%&a for &e%time%"
+    success_public: "&a%player% was temporarily muted by &c%sender%&a for &e%time%"
+    target_message: "&cYou were temporarily muted for &e%reason%&c for &e%time%"
+    sender_message_fail: "&cYou are temporarily muted for &e%reason%&c for &e%time%"
+  unmute:
+    success_silent: "&a%player% was &esilently&a unmuted by &c%sender%"
+    success_public: "&a%player% was unmuted by &c%sender%"
